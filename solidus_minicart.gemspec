@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version     = '0.1.4'
   s.summary     = "Solidus Minicart displays a minicart in your spree store"
   s.description = "Solidus Minicart allows customer to preview their cart without leaving the page they're on. This is a fork from https://github.com/sbounmy/spree_minicart by Stéphane Bounmy."
-  s.required_ruby_version = '>= 2.2.0'
+  s.required_ruby_version = '>= 2.7.2'
 
 
   s.author            = '2bedigital'
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   # doesn't work with rails 4.1.10
-  s.add_dependency 'rails', '~> 5.0'
+  s.add_dependency 'rails', '~> 6.1'
 
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'factory_girl_rails'
